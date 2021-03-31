@@ -15,20 +15,20 @@
          .col-md-3 .card .card-title{
              margin-top: 50px;
              text-decoration: underline;
-             letter-spacing: 4px; 
+             letter-spacing: 2px; 
              text-transform: uppercase;
          }
          .col-md-3 .card h5{
              color: #FFFFFF;
              font-weight: 600;
-             font-size: 30px;
-             text-align: center;
+             font-size: 20px;
+             text-align: left;
              margin: 30px auto;
          }
          .col-md-3 .card .card-text{
              color: #FFFFFF;
              font-size: 26px;
-             padding-left: 30px;
+             padding-left: 6px;
              padding-top: 100px;
          }
        .col-md-3 .card .card-text span{
@@ -43,10 +43,9 @@
          .col-md-3 .card .event{
              color: #ffffff;
              font-size: 20px;
-             text-align: center;
+             text-align: left;
              margin-top: 28px;
              font-weight: 400;
-             letter-spacing: 2px;
          }
 
 
