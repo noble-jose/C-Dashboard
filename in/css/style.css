@@ -24,10 +24,8 @@ p {
     border: none;
 }
 
-/*
-section.data-row{
-    width: 100%;
-    height: auto;
+#av4, #av9, #av13{
+    margin-top: -12px;
 }
 */
 .container-fluid .row .col-md-6 {
@@ -94,7 +92,7 @@ section.data-row{
     background: #000000;
     border-radius: 50%;
     margin-left: -30px;
-    margin-top: 0px;
+    margin-top: -10px;
 }
 .container-fluid .row .col-md-6 .col-md-12 .col-md-6 .list-group .list-group-item .text-field {
 }
@@ -141,7 +139,7 @@ section.data-row{
     background: #ff0505;
     border-radius: 50%;
     margin-left: -30px;
-    margin-top: 15px;
+    margin-top: -10px;
 }
 
 .container-fluid .row .col-md-6 .col-md-12 .col-md-6 .list-group .list-group-item .avatar-circle10 {
@@ -182,7 +180,7 @@ section.data-row{
     background: #ffe3fe;
     border-radius: 50%;
     margin-left: -30px;
-    margin-top: 15px;
+    margin-top: -10px;
 }
 
 #recritment .card .card-body .gradient-button {
