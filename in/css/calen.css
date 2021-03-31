@@ -1,0 +1,65 @@
+         .fc .fc-button-group button{
+          border : 1px solid #f3f4ed;
+          background: transparent;
+         }
+         .fc-event{
+             background: #343f56;
+         } 
+         .fc-content{
+             color: #FFFFFF;
+         }
+         .col-md-3 .card{
+             background: #343f56;
+             height: 850px;
+         }
+         .col-md-3 .card .card-title{
+             margin-top: 50px;
+             text-decoration: underline;
+             letter-spacing: 4px; 
+             text-transform: uppercase;
+         }
+         .col-md-3 .card h5{
+             color: #FFFFFF;
+             font-weight: 600;
+             font-size: 30px;
+             text-align: center;
+             margin: 30px auto;
+         }
+         .col-md-3 .card .card-text{
+             color: #FFFFFF;
+             font-size: 26px;
+             padding-left: 30px;
+             padding-top: 100px;
+         }
+       .col-md-3 .card .card-text span{
+             color: #FFFFFF;
+             font-size: 21px;
+/*
+             padding-left: 30px;
+             padding-top: 100px;
+*/
+         }
+
+         .col-md-3 .card .event{
+             color: #ffffff;
+             font-size: 20px;
+             text-align: center;
+             margin-top: 28px;
+             font-weight: 400;
+             letter-spacing: 2px;
+         }
+
+
+.col-md-3, .col-md-9{
+float: left;
+}
+         
+         @media screen and (max-width: 1200px){
+            .col-md-3 .card{
+             background: #343f56;
+             height: 500px;
+         }
+              .col-md-9{
+                 margin-top: 20px;
+             }
+         }
