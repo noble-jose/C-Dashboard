@@ -181,7 +181,28 @@
                     </div>
                 </div>
             </div>
+            <!--calendar-->
+            <div class="row">
+            <div class="col-12 col-sm-12 col-md-5 col-lg-5 col-xl-5" id="top-widget">
+            <div class="card" style="height: 700px;">
+              <div class="card-body">
+                <h5 class="card-title"><h4 class="second-title">Widget</h4></h5>
+                <div class="week">Week</div>
 
+              </div>
+            </div>
+            </div>
+            <div class="col-12 col-sm-12 col-md-7 col-lg-7 col-xl-7" id="event-cal">
+            <div class="card">
+            <div class="card-body">
+              <h5 class="card-title"></h5>
+              <div class="col-md-12">
+                <div id="calendar"></div>
+              </div>
+            </div>
+        </div>
+        </div>
+            </div>
             <!--Second Row-->
             <div class="row">
                 <div class="col-md-6 col-lg-6 col-xl-4" id="recritment">
@@ -382,38 +403,7 @@
         </div>
         </div>
             </div>
-        
-        
-
-        <div class="row">
-            <div class="col-12 col-sm-12 col-md-12 col-lg-12 col-xl-12" id="month-invoice">
-            <div class="card">
-            <div class="card-body">
-              <div class="col-md-3">
-                <div class="card">
-                    <div class="card-body">
             
-                        <p class="card-text">
-                         WEDNESDAY <br>
-                            <span>MAR 31</span>
-                        </p>
-                        <h5 class="card-title">Events</h5>
-                        <div class="event">
-                         Event 1 --<span> 10:00 Am</span><br>
-                         Event 2 --<span> 12:00 Pm</span><br>
-                         Event 3 --<span> 03:00 Pm</span>
-                        </div>
-                    </div>
-                </div>
-              </div>
-       <div class="col-md-9">
-          <div id="calendar"></div>
-       </div>
-            </div>
-        </div>
-        </div>
-   </div>   
-
   </div>
 
         <!--  script-->
@@ -534,4 +524,10 @@
     }).on("click", function (i, row) {
         console.log(i, row);
     });
+</script>
+
+<script>
+  $(document).ready(function () {
+    $(".fc-day").append("<div class='add-icon'> </div>");
+  });
 </script>

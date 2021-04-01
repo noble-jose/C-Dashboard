@@ -1,7 +1,11 @@
          .fc .fc-button-group button{
-          border : 1px solid #f3f4ed;
-          background: transparent;
+          border : 1px solid #6071ec;
+          background: #6071ec;
+          color: #FFFFFF;
          }
+        .fc-icon{
+            color: #FFFFFF;
+        }
          .fc-event{
              background: #343f56;
          } 
@@ -52,7 +56,38 @@
 .col-md-3, .col-md-9{
 float: left;
 }
-         
+.add-icon {
+  background: url(../plus.png);
+  background-size: cover;
+  background-position: center;
+  height: 20px;
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  margin-left: -15px;
+  width: 20px;
+  cursor: pointer;
+  margin-top: -15px;
+  opacity: 0.1;
+  transition: 0.2s ease;
+}
+.add-icon:hover {
+  opacity: .1;
+  transform: scale(1.09);
+}
+.fc-day {
+  position: relative;
+}
+.fc-day-number{
+    color: #a9aaae;
+}
+
+table{
+    border: none;
+}
+
+
+
          @media screen and (max-width: 1200px){
             .col-md-3 .card{
              background: #343f56;

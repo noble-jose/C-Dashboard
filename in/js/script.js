@@ -1,4 +1,5 @@
   $(document).ready(function() {
+    
    var calendar = $('#calendar').fullCalendar({
     editable:true,
     header:{

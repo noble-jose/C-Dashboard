@@ -221,6 +221,9 @@ p {
     color: #414040;
     font-family: "Montserrat", sans-serif;
 }
+#recritment .card, #staff .card, #client .card{
+    margin-top: 20px;
+}
 #staff .card .card-body .gradient-button {
     width: 140px;
     height: 52px;
@@ -324,6 +327,9 @@ p {
     margin-top: 10px;
 }
 #top-candid, #month-invoice{
+    margin-top: 20px;
+}
+#top-widget, #event-cal{
     margin-top: 20px;
 }
 #top-candid .card .week{
